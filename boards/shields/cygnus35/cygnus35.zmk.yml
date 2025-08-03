@@ -1,0 +1,13 @@
+file_format: "1"
+id: cygnus35
+name: Cygnus35
+type: shield
+url: https://github.com/NoirGuo/zmk-for-cygnus35-dongle
+requires: [nice_nano_v2]
+features:
+  - keys
+  - display
+siblings:
+  - cygnus35_dongle
+  - cygnus35_ph_left
+  - cygnus35_right
