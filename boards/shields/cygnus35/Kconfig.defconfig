@@ -6,11 +6,12 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 if ZMK_DISPLAY
 
-config SH1106
-    default y
-
 config I2C
     default y
+
+choice ZMK_DISPLAY_WORK_QUEUE
+    default ZMK_DISPLAY_WORK_QUEUE_DEDICATED
+endchoice
 
 if LVGL
 
